@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "712047377865",
+    "project_id": "hallyu-aa242",
+    "storage_bucket": "hallyu-aa242.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712047377865:android:519030e2a53900e99d7c18",
+        "android_client_info": {
+          "package_name": "com.goldenowl.ecommerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712047377865-nb09f4uvncn1g6eo7eislk22vhmocnrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goldenowl.ecommerceapp",
+            "certificate_hash": "571322b37fe2f75f718d6651ff07e51a47a875ae"
+          }
+        },
+        {
+          "client_id": "712047377865-fi8b7eu061g41731cga7sh061msq4tpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCmY-84SMO14h4fXz1jJ60ClFsS73iJac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712047377865-6tjofud2eehs1klirtigrr91eqakms31.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712047377865-olfjtnf1r6r2m3973rvdgn5bphqk4389.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hallyu.style"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712047377865:android:acc187c0de83da419d7c18",
+        "android_client_info": {
+          "package_name": "com.hallyu.style"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712047377865-3vvc3lcdrijqvfl7rsv32eafdno4p9cg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hallyu.style",
+            "certificate_hash": "8b05cc898f1c059f861d2c142cbb8d43d987f567"
+          }
+        },
+        {
+          "client_id": "712047377865-5rg71uanbd927bbk506suc3ib9cn1soq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hallyu.style",
+            "certificate_hash": "571322b37fe2f75f718d6651ff07e51a47a875ae"
+          }
+        },
+        {
+          "client_id": "712047377865-fi8b7eu061g41731cga7sh061msq4tpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCmY-84SMO14h4fXz1jJ60ClFsS73iJac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712047377865-6tjofud2eehs1klirtigrr91eqakms31.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712047377865-olfjtnf1r6r2m3973rvdgn5bphqk4389.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hallyu.style"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

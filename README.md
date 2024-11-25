@@ -1,2 +1,2 @@
-# foodiAndroid
- Foodi App for Android
+# hallyuStyleAndroid
+Android Source Code for Hallyu Style

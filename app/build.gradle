@@ -1,0 +1,143 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.gms.google-services'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.hallyu.style'
+    compileSdk 33
+    splits {
+        language {
+            enable true
+            // Include only the specified language(s), or leave the list empty to include all languages
+            include "en", "ar" // Add other language codes as needed
+        }
+    }
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.hallyu.style"
+        minSdk 26
+        targetSdk 33
+        versionCode 9
+        versionName "1.0.9"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    def nav_version = "2.5.1"
+
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    testImplementation 'junit:junit:4.13.2'
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+//    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation "com.google.firebase:firebase-firestore"
+    implementation "com.google.firebase:firebase-firestore-ktx"
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation 'com.google.firebase:firebase-core:21.0.0'
+
+    // Authentication
+    implementation('com.google.firebase:firebase-auth') {
+        exclude module: "play-services-safetynet"
+    }
+    implementation 'com.google.firebase:firebase-auth-ktx'
+
+    //Google
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-auth:20.0.0'
+
+
+    // Kotlin
+    implementation "androidx.fragment:fragment-ktx"
+    implementation "javax.inject:javax.inject:latest.release"
+    implementation 'com.google.dagger:hilt-android:2.42'
+    kapt 'com.google.dagger:hilt-compiler:2.42'
+
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$nav_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$nav_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$nav_version"
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+
+    //Flash screen
+    implementation 'androidx.core:core-splashscreen:1.0.0'
+
+    // Flexbox
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
+    //CircleImageView
+    implementation 'de.hdodenhof:circleimageview:latest.release'
+
+    //library compress image
+    implementation 'id.zelory:compressor:3.0.1'
+
+    //Scan QR code
+    implementation 'com.github.yuriy-budiyev:code-scanner:2.3.2'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.10'
+
+    //ImageView Touch
+    implementation 'com.github.MikeOrtiz:TouchImageView:1.4.1'
+
+    implementation 'io.github.ahmad-hamwi:tabsync:1.0.1'
+
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
+    implementation "androidx.paging:paging-runtime-ktx:3.1.0-beta01"
+
+    //paper
+    implementation 'io.github.pilgr:paperdb:2.7.2'
+
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+}
