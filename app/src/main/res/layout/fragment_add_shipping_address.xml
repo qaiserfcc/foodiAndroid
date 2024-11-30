@@ -27,16 +27,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-<!--                <Button-->
-<!--                    android:id="@+id/btnUseCurrentLocation"-->
-<!--                    style="@style/buttonTheme"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="@dimen/height_button"-->
-<!--                    android:layout_marginStart="@dimen/margin_default"-->
-<!--                    android:layout_marginTop="40dp"-->
-<!--                    android:layout_marginEnd="@dimen/margin_default"-->
-<!--                    android:text="@string/use_location"-->
-<!--                    android:textAllCaps="true" />-->
+                <!--                <Button-->
+                <!--                    android:id="@+id/btnUseCurrentLocation"-->
+                <!--                    style="@style/buttonTheme"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="@dimen/height_button"-->
+                <!--                    android:layout_marginStart="@dimen/margin_default"-->
+                <!--                    android:layout_marginTop="40dp"-->
+                <!--                    android:layout_marginEnd="@dimen/margin_default"-->
+                <!--                    android:text="@string/use_location"-->
+                <!--                    android:textAllCaps="true" />-->
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/txtLayoutFullName"
                     android:layout_width="match_parent"

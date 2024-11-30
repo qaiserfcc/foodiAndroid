@@ -160,8 +160,7 @@
                     android:src="@drawable/ic_google"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    />
+                    app:layout_constraintLeft_toLeftOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

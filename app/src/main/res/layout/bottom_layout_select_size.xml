@@ -85,7 +85,7 @@
         android:layout_marginEnd="@dimen/margin_default"
         android:layout_marginBottom="10dp"
         android:visibility="gone"
-        android:indeterminateTint="@color/colorPrimary"/>
+        android:indeterminateTint="@color/colorPrimary" />
 
     <Button
         android:id="@+id/btnAddToCart"

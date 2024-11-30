@@ -42,7 +42,7 @@
               "client_id": "712047377865-olfjtnf1r6r2m3973rvdgn5bphqk4389.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.hallyu.style"
+                "bundle_id": "com.bhub.foodi"
               }
             }
           ]
@@ -53,7 +53,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:712047377865:android:acc187c0de83da419d7c18",
         "android_client_info": {
-          "package_name": "com.hallyu.style"
+          "package_name": "com.bhub.foodi"
         }
       },
       "oauth_client": [
@@ -61,7 +61,7 @@
           "client_id": "712047377865-3vvc3lcdrijqvfl7rsv32eafdno4p9cg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.hallyu.style",
+            "package_name": "com.bhub.foodi",
             "certificate_hash": "8b05cc898f1c059f861d2c142cbb8d43d987f567"
           }
         },
@@ -69,7 +69,7 @@
           "client_id": "712047377865-5rg71uanbd927bbk506suc3ib9cn1soq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.hallyu.style",
+            "package_name": "com.bhub.foodi",
             "certificate_hash": "571322b37fe2f75f718d6651ff07e51a47a875ae"
           }
         },
@@ -94,7 +94,7 @@
               "client_id": "712047377865-olfjtnf1r6r2m3973rvdgn5bphqk4389.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.hallyu.style"
+                "bundle_id": "com.bhub.foodi"
               }
             }
           ]

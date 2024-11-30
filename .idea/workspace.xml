@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.App.SplashScreen</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_view_page_tutorial.xml">
+        <config>
+          <theme>@style/Theme.HallyuStyle</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="271ccef3-7057-4c30-a8ad-499e32db5269" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/response/DetailData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/response/PaginationData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/hallyu/style/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/bhub/foodi/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/AuthenticatorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/AuthenticatorService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/HallyuApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/FoodiApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/HomeBrandsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/HomeBrandsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/HomeCategoriesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/HomeCategoriesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ImageHomeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ImageHomeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ImageProductAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ImageProductAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ImageTouchAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ImageTouchAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListAddressAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListAddressAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListBagAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListBagAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListBagAdapter2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListBagAdapter2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListCardAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListCardAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListCategoriesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListCategoriesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListCategoriesAdapter2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListCategoriesAdapter2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListCategoryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListCategoryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListColorAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListColorAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListCountryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListCountryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListDeliveryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListDeliveryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListFavoriteAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListFavoriteAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListHistoryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListHistoryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListHomeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListHomeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListImageReview.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListImageReview.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListOrderAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListOrderAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListProductAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListProductAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListProductGridAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListProductGridAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListProductGridAdapter2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListProductGridAdapter2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListProductOrderAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListProductOrderAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListPromotionAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListPromotionAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListReviewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListReviewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListReviewAdapter2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListReviewAdapter2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ListSizeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ListSizeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/ProductPagingDataAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/ProductPagingDataAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/SpinnerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/SpinnerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/StatusPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/StatusPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/adapters/TutorialPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/adapters/TutorialPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/core/BaseBottomSheetDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/core/BaseBottomSheetDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/core/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/core/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/core/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/core/BaseViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/core/OnSignInStartedListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/core/OnSignInStartedListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/core/ProductPagingSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/core/ProductPagingSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Bag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Bag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/BagAndProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/BagAndProduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/BagRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/BagRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/BaseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/BaseRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Card.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Card.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/CategoryModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/CategoryModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Delivery.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Delivery.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Favorite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Favorite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/FavoriteAndProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/FavoriteAndProduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/FavoriteRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/FavoriteRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/OldOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/OldOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/OrderRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/OrderRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/PaymentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/PaymentRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/ProductModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/ProductModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/ProductOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/ProductOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/ProductRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/ProductRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Promotion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Promotion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/PromotionRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/PromotionRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Review.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Review.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/ReviewRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/ReviewRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/ShippingAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/ShippingAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/ShippingAddressRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/ShippingAddressRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Size.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Size.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/Tag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/Tag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/TypeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/TypeSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/data/UserManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/data/UserManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/di/DatabaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/di/DatabaseModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/networkservice/ApiResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/networkservice/ApiResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/networkservice/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/networkservice/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/networkservice/DataConverterFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/networkservice/DataConverterFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/networkservice/ResultHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/networkservice/ResultHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/networkservice/RetrofitService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/networkservice/RetrofitService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/response/CartOrders.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/response/CartOrders.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/response/DetailData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/response/HomeData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/response/HomeData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/response/OptionsData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/response/OptionsData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/response/PaginationData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/auth/AuthActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/auth/AuthActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/auth/AuthViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/auth/AuthViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/auth/ForgotPasswordFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/auth/ForgotPasswordFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/auth/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/auth/LoginFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/auth/SignUpFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/auth/SignUpFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/bag/BagFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/bag/BagFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/bag/BagViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/bag/BagViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/bag/BottomSheetCart.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/bag/BottomSheetCart.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/changepassword/BottomSheetChangePassword.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/changepassword/BottomSheetChangePassword.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/changepassword/ChangePasswordViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/changepassword/ChangePasswordViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/checkout/CheckoutFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/checkout/CheckoutFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/checkout/CheckoutViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/checkout/CheckoutViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/checkout/SuccessFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/checkout/SuccessFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/favorite/BottomSheetFavorite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/favorite/BottomSheetFavorite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/favorite/FavoriteViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/favorite/FavoriteViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/favorite/FavoritesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/favorite/FavoritesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/CartDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/CartDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/ConfirmDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/ConfirmDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/DatePickerFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/DatePickerFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/DialogChooseImage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/DialogChooseImage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/LoadingDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/LoadingDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/NoInternetActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/NoInternetActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/NoInternetFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/NoInternetFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/Permission.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/Permission.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/general/WarningFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/general/WarningFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/home/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/home/HomeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/home/ViewPageImageHome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/home/ViewPageImageHome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/largeimage/LargeImageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/largeimage/LargeImageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/largeimage/ViewPageImageTouch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/largeimage/ViewPageImageTouch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/order/ItemListOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/order/ItemListOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/order/OrderDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/order/OrderDetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/order/OrderViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/order/OrderViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/order/OrdersFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/order/OrdersFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/paymentmethod/BottomAddPayment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/paymentmethod/BottomAddPayment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/paymentmethod/PaymentMethodFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/paymentmethod/PaymentMethodFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/paymentmethod/PaymentViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/paymentmethod/PaymentViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/profile/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/profile/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/profile/ProfileLoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/profile/ProfileLoginFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/profile/ProfileNoLoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/profile/ProfileNoLoginFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/profile/ProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/profile/ProfileViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/promotion/BottomPromotion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/promotion/BottomPromotion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/promotion/PromoListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/promotion/PromoListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/promotion/PromotionViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/promotion/PromotionViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/qrscan/AllowCameraFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/qrscan/AllowCameraFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/qrscan/QrScanFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/qrscan/QrScanFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/qrscan/QrScanViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/qrscan/QrScanViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/reviewrating/BottomAddReview.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/reviewrating/BottomAddReview.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/reviewrating/RatingProductFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/reviewrating/RatingProductFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/reviewrating/ReviewListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/reviewrating/ReviewListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/reviewrating/ReviewRatingViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/reviewrating/ReviewRatingViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/search/SearchFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/search/SearchFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/setting/SettingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/setting/SettingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/setting/SettingViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/setting/SettingViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shippingaddress/AddShippingAddressFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shippingaddress/AddShippingAddressFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shippingaddress/BottomSelectCountry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shippingaddress/BottomSelectCountry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shippingaddress/ShippingAddressFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shippingaddress/ShippingAddressFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shippingaddress/ShippingAddressViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shippingaddress/ShippingAddressViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/BottomFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/BottomFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/BottomSheetSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/BottomSheetSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/CatalogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/CatalogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/CatalogNewFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/CatalogNewFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/Pagination.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/Pagination.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/ProductDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/ProductDetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/ProductQueryParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/ProductQueryParams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/ShopFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/ShopFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/ShopViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/ShopViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/shop/ViewPageImageProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/shop/ViewPageImageProduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/tutorial/IntroPageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/tutorial/IntroPageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/ui/tutorial/ViewPageTutorialFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/ui/tutorial/ViewPageTutorialFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/DateFormat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/DateFormat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/FileUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/FileUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/GlideDefault.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/GlideDefault.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/Hash.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/Hash.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/NetworkChangeReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/NetworkChangeReceiver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/NetworkHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/NetworkHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/Notification.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/Notification.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/PreferencesManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/PreferencesManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/RSA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/RSA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hallyu/style/utilities/SpaceItemDecoration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bhub/foodi/utilities/SpaceItemDecoration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hallyu_logo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hallyu_logo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_download.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_download.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_messages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_messages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_shop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_shop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_wish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_wish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_corner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_layout_select_size.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_layout_select_size.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_otp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_otp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_action_bar_filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_action_bar_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_shipping_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_shipping_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checkout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checkout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_product_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_product_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_product_detail_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_product_detail_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/more_bag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/more_bag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_login_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_login_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/type.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/type.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/authenticator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/authenticator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/locales_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/locales_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/hallyu/style/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/bhub/foodi/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/qaisu/.android/avd/Pixel_3a_API_34_extension_level_7_arm64-v8a.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Foodi" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Foodi" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Foodi" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Foodi" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pYPIyPZ7BgNzlyRz4KAjWZEc6M" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.MainActivity.executor": "Run",
+    "Android App.app.executor": "Run",
+    "Android Instrumented Tests.All Tests.executor": "Run",
+    "Gradle.foodiAndroid [clean].executor": "Run",
+    "Gradle.foodiAndroid.executor": "Run",
+    "ResourceManagerPrefKey.ResourceType": "DRAWABLE",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "Dev",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/Users/qaisu/.gradle"
+    ]
+  }
+}]]></component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Foodi.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Tests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Foodi.app" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="foodiAndroid [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="foodiAndroid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android Instrumented Tests.All Tests" />
+      <item itemvalue="Gradle.foodiAndroid" />
+      <item itemvalue="Gradle.foodiAndroid [clean]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.foodiAndroid" />
+        <item itemvalue="Gradle.foodiAndroid [clean]" />
+        <item itemvalue="Android Instrumented Tests.All Tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="271ccef3-7057-4c30-a8ad-499e32db5269" name="Changes" comment="" />
+      <created>1732939959926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732939959926</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -218,47 +218,47 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!--                <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--                    android:id="@+id/promocodesLayout"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="@dimen/height_layout_button_profile"-->
-<!--                    android:background="?android:attr/selectableItemBackground">-->
+                <!--                <androidx.constraintlayout.widget.ConstraintLayout-->
+                <!--                    android:id="@+id/promocodesLayout"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="@dimen/height_layout_button_profile"-->
+                <!--                    android:background="?android:attr/selectableItemBackground">-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txtTitlePromocodes"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginStart="@dimen/margin_default"-->
-<!--                        android:layout_marginTop="18dp"-->
-<!--                        android:text="@string/promocodes"-->
-<!--                        android:textSize="@dimen/size_text"-->
-<!--                        android:textStyle="bold"-->
-<!--                        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/txtTitlePromocodes"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginStart="@dimen/margin_default"-->
+                <!--                        android:layout_marginTop="18dp"-->
+                <!--                        android:text="@string/promocodes"-->
+                <!--                        android:textSize="@dimen/size_text"-->
+                <!--                        android:textStyle="bold"-->
+                <!--                        app:layout_constraintLeft_toLeftOf="parent"-->
+                <!--                        app:layout_constraintTop_toTopOf="parent" />-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txtSubTitlePromocodes"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginStart="@dimen/margin_default"-->
-<!--                        android:layout_marginTop="9dp"-->
-<!--                        android:text="@string/you_have_special_promocodes"-->
-<!--                        android:textSize="@dimen/size_text_small"-->
-<!--                        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--                        app:layout_constraintTop_toBottomOf="@+id/txtTitlePromocodes" />-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/txtSubTitlePromocodes"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginStart="@dimen/margin_default"-->
+                <!--                        android:layout_marginTop="9dp"-->
+                <!--                        android:text="@string/you_have_special_promocodes"-->
+                <!--                        android:textSize="@dimen/size_text_small"-->
+                <!--                        app:layout_constraintLeft_toLeftOf="parent"-->
+                <!--                        app:layout_constraintTop_toBottomOf="@+id/txtTitlePromocodes" />-->
 
-<!--                    <ImageView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginEnd="6dp"-->
-<!--                        android:contentDescription="@string/button"-->
-<!--                        android:src="@drawable/ic_arrow_right"-->
-<!--                        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                        app:layout_constraintRight_toRightOf="parent"-->
-<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+                <!--                    <ImageView-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginEnd="6dp"-->
+                <!--                        android:contentDescription="@string/button"-->
+                <!--                        android:src="@drawable/ic_arrow_right"-->
+                <!--                        app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--                        app:layout_constraintRight_toRightOf="parent"-->
+                <!--                        app:layout_constraintTop_toTopOf="parent" />-->
 
 
-<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+                <!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/myReviewLayout"
