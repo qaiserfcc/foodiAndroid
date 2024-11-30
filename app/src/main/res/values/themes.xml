@@ -96,6 +96,7 @@
     <style name="MyPopupStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:background">@drawable/btn_custom3</item>
     </style>
+
     <style name="AppTheme.Dialog.FullScreen" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">false</item>
@@ -105,6 +106,7 @@
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
     </style>
+
     <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Dialog.Alert">
         <!-- Customize your theme here -->
         <item name="android:windowBackground">@android:color/transparent</item>
