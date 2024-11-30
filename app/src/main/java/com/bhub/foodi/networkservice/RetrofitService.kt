@@ -67,7 +67,7 @@ class RetrofitService {
 
     companion object {
         //const val SERVER_URL = "https://hallyustyle.com/api/store-front/"
-        const val SERVER_URL = "http://localhost/hallyustyle.com/api/store-front/"
+        const val SERVER_URL = "https://client.businesshub.abudhabi/api/store-front/"
         private val httpClient: OkHttpClient.Builder = OkHttpClient.Builder()
         fun setLogger(): HttpLoggingInterceptor {
             val logging = HttpLoggingInterceptor()
